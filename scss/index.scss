@@ -1,0 +1,219 @@
+@charset "utf-8";
+
+html {
+   font-size: 62.5%;
+}
+body {
+   font-family: "Noto Sans JP", "Hiragino Kaku Gothic Pron", sans-serif;
+   color: #333;
+   letter-spacing: .03em;
+   cursor: default;
+}
+*, *::before, *::after {
+   box-sizing: border-box;
+}
+a {
+   text-decoration: none;
+   cursor: pointer;
+}
+
+$main: #00a26a;
+$attention: #cb2e5d;
+
+.sp-header {
+   display: flex;
+   justify-content: space-between;
+   padding: 10px 10px 10px 20px;
+   border-bottom: 1px solid rgba(230, 230, 230, 0.8);
+   .logo {
+      a {
+         display: block;
+         width: 170px;
+         img {
+            width: 100%;
+         }
+      }
+   }
+   .header-parts {
+      display: flex;
+      align-items: center;
+      font-size: 1rem;
+      div:not(:last-child) {
+         margin-right: 20px;
+      }
+      .btn-store {
+         a {
+            display: block;
+            padding: 5px 7px;
+            background-color: $main;
+            color: #fff;
+            text-align: center;
+            line-height: 1.4;
+            border-radius: 4px;
+         }
+      }
+      .search-btn {
+         color: #666;
+         text-align: center;
+         .fas {
+            margin-bottom: 4px;
+            color: $main;
+            font-size: 2rem;
+         }
+      }
+      .menu {
+         display: flex;
+         flex-direction: column;
+         align-items: center;
+         color: #666;
+         img {
+            width: 22px;
+            height: auto;
+            margin-bottom: 4px;
+         }
+      }
+   }
+}
+
+//トップビュー
+.top-view {
+   width: 100%;
+   .voice-container {
+      display: flex;
+      padding: 12px;
+      .voice {
+         display: inline-block;
+         margin-left: auto;
+         padding: 5px 7px;
+         border: 1px solid $main;
+         border-radius: 20px;
+         span {
+            font-size: 1.1rem;
+         }
+         .fas {
+            color: $main;
+            font-size: 1.1rem;
+            margin-left: 4px;
+            line-height: 1;
+         }
+      }
+   }
+   .swiper {
+      width: 100%;
+      padding-bottom: 22px;
+      .swiper-wrapper {
+         width: 100%;
+         .swiper-slide {
+            width: 100%;
+            a {
+               display: block;
+               width: 100%;
+               img {
+                  
+                  width: 100%;
+               }
+            }
+         }
+      }
+      .swiper-pagination {
+         .swiper-pagination-bullet {
+            width: 11px;
+            height: 11px;
+         }
+         .swiper-pagination-bullet-active {
+            background-color: $main;
+         }
+      }
+   }
+}
+
+//attention
+.top-attention {
+   padding: 20px;
+   background: #fff;
+   font-size: 1.6rem;
+   color: $attention;
+   .attention-ttl {
+      display: inline-block;
+      margin-bottom: 10px;
+      padding: 4px 15px;
+      font-size: 1.4rem;
+      border: 2px solid $attention;
+      border-radius: 5px;
+   }
+   .attention-wrap {
+      display: flex;
+      line-height: 1.4;
+      .arrow {
+         margin-right: 8px;
+      }
+   }
+}
+
+//netbank-logon
+.netbank-logon {
+   display: flex;
+   a {
+      flex: 0 0 50%;
+      display: block;
+      padding: 20px 25px;
+      text-align: center;
+      
+      h2 {
+         font-size: 1.8rem;
+         span {
+            font-size: 1.2rem;
+         }
+      }
+   }
+   .logon-btn {
+      display: inline-block;
+      margin-top: 10px;
+      padding: 5px 25px 5px 40px;
+      font-size: 1.4rem;
+      font-weight: bold;
+      border-radius: 20px;
+   }
+   .netbank-kojin {
+      background-color: #ffd800;
+      .logon-btn {
+         background: url(../image/icon_login.svg) no-repeat #f4b200 left 20px center;
+         background-size: 10px 13px;
+      }
+   }
+   .netbank-hojin {
+      background-color: #326c75;
+      color: #fff;
+      .logon-btn {
+         background: url(../image/icon_login_white.svg) no-repeat #19525b left 20px center;
+         background-size: 10px 13px;
+      }
+   }
+}
+.swiper-wrapper {
+   display: flex;
+   .swiper-slide {
+      display: block;
+      width: 290px;
+      height: auto;
+      box-shadow: 0px 0px 13px -3px gray;
+      .swiper-card {
+         display: flex;
+         flex-direction: column;
+         align-items: center;
+         width: 100%;
+         .img-wrap {
+            width: 100%;
+            img {
+               display: block;
+               width: 100%;
+            }
+         }
+      }
+   }
+}
+
+
+
+
+

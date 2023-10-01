@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 13 13">
+  <defs>
+    <style>
+      .a {
+        fill: none;
+        stroke: #005e3e;
+        stroke-miterlimit: 10;
+        stroke-width: 3px;
+      }
+    </style>
+  </defs>
+  <g>
+    <line class="a" y1="6.5" x2="13" y2="6.5"/>
+    <line class="a" x1="6.5" x2="6.5" y2="13"/>
+  </g>
+</svg>

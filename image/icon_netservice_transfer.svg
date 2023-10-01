@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 94.785 64.207">
+  <defs>
+    <style>
+      .a, .b {
+        fill: none;
+        stroke-linecap: round;
+        stroke-width: 3.5px;
+      }
+
+      .a {
+        stroke: #00a26a;
+        stroke-miterlimit: 10;
+      }
+
+      .b {
+        stroke: #727272;
+        stroke-linejoin: round;
+      }
+    </style>
+  </defs>
+  <g>
+    <g>
+      <polyline class="a" points="42.106 34.929 20.695 34.929 20.695 9.143 63.517 9.143 63.517 27.622"/>
+      <polyline class="b" points="13.22 40.919 13.22 1.75 70.992 1.75 70.992 27.622"/>
+      <polyline class="b" points="42.106 47.488 1.75 47.488 1.75 40.919 42.106 40.919"/>
+    </g>
+    <g>
+      <line class="b" x1="42.106" y1="34.956" x2="93.035" y2="34.956"/>
+      <line class="b" x1="42.106" y1="42.593" x2="93.035" y2="42.593"/>
+      <line class="b" x1="73.122" y1="48.397" x2="76.992" y2="48.397"/>
+      <line class="b" x1="82.311" y1="48.397" x2="86.181" y2="48.397"/>
+      <rect class="a" x="42.106" y="27.622" width="50.929" height="34.835" rx="4"/>
+    </g>
+  </g>
+</svg>

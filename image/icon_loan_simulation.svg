@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 47.239 62.6">
+  <defs>
+    <style>
+      .a, .b, .c {
+        fill: none;
+        stroke-linecap: round;
+      }
+
+      .a, .c {
+        stroke: #727272;
+        stroke-linejoin: round;
+      }
+
+      .a, .b {
+        stroke-width: 3.5px;
+      }
+
+      .b {
+        stroke: #00a26a;
+        stroke-miterlimit: 10;
+      }
+
+      .c {
+        stroke-width: 2.5px;
+      }
+    </style>
+  </defs>
+  <g>
+    <rect class="a" x="1.75" y="1.75" width="43.739" height="59.1" rx="4.718"/>
+    <g>
+      <rect class="b" x="9.517" y="8.555" width="28.205" height="10.78" rx="4.545"/>
+      <rect class="c" x="9.55" y="26.148" width="6.028" height="6.028" rx="1.781"/>
+      <rect class="c" x="20.622" y="26.148" width="6.028" height="6.028" rx="1.781"/>
+      <rect class="c" x="31.694" y="26.148" width="6.028" height="6.028" rx="1.781"/>
+      <rect class="c" x="9.55" y="37.082" width="6.028" height="6.028" rx="1.781"/>
+      <rect class="c" x="20.622" y="37.082" width="6.028" height="6.028" rx="1.781"/>
+      <rect class="c" x="9.55" y="48.017" width="6.028" height="6.028" rx="1.781"/>
+      <rect class="c" x="20.622" y="48.017" width="6.028" height="6.028" rx="1.781"/>
+      <path class="c" d="M33.412,37.082A1.718,1.718,0,0,0,31.694,38.8V52.327a1.718,1.718,0,0,0,1.718,1.718H36a1.718,1.718,0,0,0,1.718-1.718V38.8A1.718,1.718,0,0,0,36,37.082Z"/>
+    </g>
+  </g>
+</svg>

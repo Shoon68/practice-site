@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 105.53 57.773">
+  <defs>
+    <style>
+      .a, .b, .c {
+        fill: none;
+        stroke-linecap: round;
+      }
+
+      .a {
+        stroke: #00a26a;
+        stroke-miterlimit: 10;
+      }
+
+      .a, .c {
+        stroke-width: 3.5px;
+      }
+
+      .b, .c {
+        stroke: #727272;
+        stroke-linejoin: round;
+      }
+
+      .b {
+        stroke-width: 2.5px;
+      }
+    </style>
+  </defs>
+  <g>
+    <line class="a" x1="60.262" y1="17.015" x2="62.949" y2="56.023"/>
+    <line class="a" x1="89.214" y1="17.015" x2="86.527" y2="56.023"/>
+    <line class="a" x1="74.738" y1="56.023" x2="74.738" y2="17.015"/>
+    <line class="a" x1="48.383" y1="36.519" x2="101.093" y2="36.519"/>
+    <g>
+      <line class="b" x1="1.892" y1="14.157" x2="35.814" y2="9.997"/>
+      <line class="b" x1="2.516" y1="19.244" x2="36.438" y2="15.084"/>
+      <line class="b" x1="23.648" y1="20.576" x2="26.226" y2="20.26"/>
+      <line class="b" x1="29.769" y1="19.825" x2="32.347" y2="19.509"/>
+      <rect class="a" x="2.589" y="7.105" width="34.176" height="23.376" rx="4" transform="translate(-2.141 2.535) rotate(-6.992)"/>
+    </g>
+    <polygon class="c" points="98.406 56.023 51.071 56.023 45.696 17.015 103.78 17.015 98.406 56.023"/>
+    <line class="c" x1="91.47" y1="17.015" x2="82.218" y2="1.75"/>
+    <line class="c" x1="58.006" y1="17.015" x2="67.259" y2="1.75"/>
+  </g>
+</svg>

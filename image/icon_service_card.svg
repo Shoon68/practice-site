@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 82.943 64.639">
+  <defs>
+    <style>
+      .a {
+        fill: #fff;
+      }
+
+      .a, .b {
+        stroke: #727272;
+      }
+
+      .a, .b, .c {
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        stroke-width: 3.5px;
+      }
+
+      .b, .c {
+        fill: none;
+      }
+
+      .c {
+        stroke: #00a26a;
+      }
+
+      .d {
+        fill: #00a26a;
+      }
+    </style>
+  </defs>
+  <g>
+    <g>
+      <line class="a" x1="74.427" y1="57.072" x2="57.844" y2="59.729"/>
+      <path class="b" d="M64.96,5.326l2.877-.574A3.8,3.8,0,0,1,72.3,7.728l8.819,44.139a3.8,3.8,0,0,1-2.976,4.462l-3.716.743"/>
+    </g>
+    <path class="b" d="M51.686,3.222l2.819-.97A3.8,3.8,0,0,1,59.326,4.6L73.982,47.162a3.8,3.8,0,0,1-2.351,4.821l-4.255,1.465"/>
+    <path class="b" d="M37.846,3.2l1.613-.94a3.8,3.8,0,0,1,5.187,1.365L67.324,42.511A3.8,3.8,0,0,1,65.958,47.7l-4.827,2.816"/>
+    <g>
+      <rect class="b" x="4.365" y="14.778" width="52.597" height="35.977" rx="4" transform="translate(36.756 -11.695) rotate(50.905)"/>
+      <line class="b" x1="27.228" y1="7.445" x2="29.749" y2="10.547"/>
+      <g>
+        <line class="c" x1="28.593" y1="26.938" x2="27.537" y2="27.795"/>
+        <line class="c" x1="31.304" y1="30.275" x2="30.248" y2="31.132"/>
+        <line class="c" x1="34.016" y1="33.612" x2="32.96" y2="34.47"/>
+        <line class="c" x1="36.727" y1="36.949" x2="35.672" y2="37.807"/>
+        <line class="c" x1="39.439" y1="40.286" x2="38.383" y2="41.144"/>
+        <line class="c" x1="42.15" y1="43.623" x2="41.095" y2="44.481"/>
+        <line class="c" x1="11.032" y1="23.769" x2="9.976" y2="24.626"/>
+        <line class="c" x1="13.743" y1="27.106" x2="12.688" y2="27.964"/>
+        <line class="c" x1="16.455" y1="30.443" x2="15.399" y2="31.301"/>
+        <line class="c" x1="19.166" y1="33.78" x2="18.111" y2="34.638"/>
+        <line class="c" x1="21.878" y1="37.117" x2="20.822" y2="37.975"/>
+        <line class="c" x1="24.589" y1="40.454" x2="23.534" y2="41.312"/>
+        <rect class="d" x="20.115" y="15.071" width="4.247" height="2.044" transform="translate(20.704 -11.315) rotate(50.905)"/>
+        <rect class="d" x="23.396" y="19.108" width="4.247" height="2.044" transform="translate(25.05 -12.369) rotate(50.905)"/>
+        <rect class="d" x="18.107" y="16.703" width="4.247" height="2.044" transform="translate(21.229 -9.153) rotate(50.905)"/>
+        <rect class="d" x="21.388" y="20.74" width="4.247" height="2.044" transform="translate(25.574 -10.208) rotate(50.905)"/>
+        <rect class="d" x="16.099" y="18.334" width="4.247" height="2.044" transform="translate(21.754 -6.992) rotate(50.905)"/>
+        <rect class="d" x="19.379" y="22.372" width="4.247" height="2.044" transform="translate(26.099 -8.047) rotate(50.905)"/>
+      </g>
+      <circle class="d" cx="30.818" cy="49.088" r="3.289"/>
+      <circle class="d" cx="33.765" cy="52.716" r="3.289"/>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 82.857 58.699">
+  <defs>
+    <style>
+      .a, .b {
+        fill: none;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        stroke-width: 3.5px;
+      }
+
+      .a {
+        stroke: #727272;
+      }
+
+      .b {
+        stroke: #00a26a;
+      }
+    </style>
+  </defs>
+  <g>
+    <rect class="a" x="5.304" y="11.354" width="54.869" height="29.319" transform="translate(-7.59 14.963) rotate(-23.146)"/>
+    <polyline class="a" points="60.83 4.986 72.354 31.945 21.902 53.513"/>
+    <polyline class="a" points="69.582 8.422 81.107 35.382 30.655 56.949"/>
+    <circle class="b" cx="32.738" cy="26.013" r="8.272"/>
+  </g>
+</svg>

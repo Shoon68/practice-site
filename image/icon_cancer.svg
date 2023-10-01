@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 53.284 67.582">
+  <defs>
+    <style>
+      .a, .c {
+        fill: none;
+        stroke-linecap: round;
+        stroke-width: 3.5px;
+      }
+
+      .a {
+        stroke: #727272;
+        stroke-linejoin: round;
+      }
+
+      .b {
+        fill: #00a26a;
+      }
+
+      .c {
+        stroke: #00a26a;
+        stroke-miterlimit: 10;
+      }
+
+      .d {
+        fill: #727272;
+      }
+    </style>
+  </defs>
+  <g>
+    <path class="a" d="M33.622,38.124V54.511c0,7.139-5.117,11.321-11.321,11.321s-10.736-4.22-10.736-12.36"/>
+    <path class="a" d="M45.352,3.428h2.49a3.9,3.9,0,0,1,3.692,4.077v10.1a14.268,14.268,0,0,1-5.618,11.541L33.622,38.124"/>
+    <circle class="b" cx="11.565" cy="43.657" r="4.373"/>
+    <circle class="c" cx="11.565" cy="43.657" r="9.815"/>
+    <path class="a" d="M21.892,3.428H19.4A3.9,3.9,0,0,0,15.71,7.505v10.1a14.268,14.268,0,0,0,5.618,11.541l12.294,8.978"/>
+    <rect class="d" x="20.223" width="6.856" height="6.856" rx="1.3"/>
+    <rect class="d" x="40.165" width="6.856" height="6.856" rx="1.3" transform="translate(87.186 6.856) rotate(-180)"/>
+  </g>
+</svg>

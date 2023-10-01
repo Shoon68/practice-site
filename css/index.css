@@ -1,0 +1,272 @@
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Noto Sans JP", "Hiragino Kaku Gothic Pron", sans-serif;
+  color: #333;
+  letter-spacing: .03em;
+  cursor: default;
+}
+
+*, *::before, *::after {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.sp-header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 10px 10px 10px 20px;
+  border-bottom: 1px solid rgba(230, 230, 230, 0.8);
+}
+
+.sp-header .logo a {
+  display: block;
+  width: 170px;
+}
+
+.sp-header .logo a img {
+  width: 100%;
+}
+
+.sp-header .header-parts {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 1rem;
+}
+
+.sp-header .header-parts div:not(:last-child) {
+  margin-right: 20px;
+}
+
+.sp-header .header-parts .btn-store a {
+  display: block;
+  padding: 5px 7px;
+  background-color: #00a26a;
+  color: #fff;
+  text-align: center;
+  line-height: 1.4;
+  border-radius: 4px;
+}
+
+.sp-header .header-parts .search-btn {
+  color: #666;
+  text-align: center;
+}
+
+.sp-header .header-parts .search-btn .fas {
+  margin-bottom: 4px;
+  color: #00a26a;
+  font-size: 2rem;
+}
+
+.sp-header .header-parts .menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #666;
+}
+
+.sp-header .header-parts .menu img {
+  width: 22px;
+  height: auto;
+  margin-bottom: 4px;
+}
+
+.top-view {
+  width: 100%;
+}
+
+.top-view .voice-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 12px;
+}
+
+.top-view .voice-container .voice {
+  display: inline-block;
+  margin-left: auto;
+  padding: 5px 7px;
+  border: 1px solid #00a26a;
+  border-radius: 20px;
+}
+
+.top-view .voice-container .voice span {
+  font-size: 1.1rem;
+}
+
+.top-view .voice-container .voice .fas {
+  color: #00a26a;
+  font-size: 1.1rem;
+  margin-left: 4px;
+  line-height: 1;
+}
+
+.top-view .swiper {
+  width: 100%;
+  padding-bottom: 22px;
+}
+
+.top-view .swiper .swiper-wrapper {
+  width: 100%;
+}
+
+.top-view .swiper .swiper-wrapper .swiper-slide {
+  width: 100%;
+}
+
+.top-view .swiper .swiper-wrapper .swiper-slide a {
+  display: block;
+  width: 100%;
+}
+
+.top-view .swiper .swiper-wrapper .swiper-slide a img {
+  width: 100%;
+}
+
+.top-view .swiper .swiper-pagination .swiper-pagination-bullet {
+  width: 11px;
+  height: 11px;
+}
+
+.top-view .swiper .swiper-pagination .swiper-pagination-bullet-active {
+  background-color: #00a26a;
+}
+
+.top-attention {
+  padding: 20px;
+  background: #fff;
+  font-size: 1.6rem;
+  color: #cb2e5d;
+}
+
+.top-attention .attention-ttl {
+  display: inline-block;
+  margin-bottom: 10px;
+  padding: 4px 15px;
+  font-size: 1.4rem;
+  border: 2px solid #cb2e5d;
+  border-radius: 5px;
+}
+
+.top-attention .attention-wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  line-height: 1.4;
+}
+
+.top-attention .attention-wrap .arrow {
+  margin-right: 8px;
+}
+
+.netbank-logon {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.netbank-logon a {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 50%;
+          flex: 0 0 50%;
+  display: block;
+  padding: 20px 25px;
+  text-align: center;
+}
+
+.netbank-logon a h2 {
+  font-size: 1.8rem;
+}
+
+.netbank-logon a h2 span {
+  font-size: 1.2rem;
+}
+
+.netbank-logon .logon-btn {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 5px 25px 5px 40px;
+  font-size: 1.4rem;
+  font-weight: bold;
+  border-radius: 20px;
+}
+
+.netbank-logon .netbank-kojin {
+  background-color: #ffd800;
+}
+
+.netbank-logon .netbank-kojin .logon-btn {
+  background: url(../image/icon_login.svg) no-repeat #f4b200 left 20px center;
+  background-size: 10px 13px;
+}
+
+.netbank-logon .netbank-hojin {
+  background-color: #326c75;
+  color: #fff;
+}
+
+.netbank-logon .netbank-hojin .logon-btn {
+  background: url(../image/icon_login_white.svg) no-repeat #19525b left 20px center;
+  background-size: 10px 13px;
+}
+
+.swiper-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.swiper-wrapper .swiper-slide {
+  display: block;
+  width: 290px;
+  height: auto;
+  -webkit-box-shadow: 0px 0px 13px -3px gray;
+          box-shadow: 0px 0px 13px -3px gray;
+}
+
+.swiper-wrapper .swiper-slide .swiper-card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+}
+
+.swiper-wrapper .swiper-slide .swiper-card .img-wrap {
+  width: 100%;
+}
+
+.swiper-wrapper .swiper-slide .swiper-card .img-wrap img {
+  display: block;
+  width: 100%;
+}
+/*# sourceMappingURL=index.css.map */

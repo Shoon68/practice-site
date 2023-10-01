@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 15.318 11.655">
+  <defs>
+    <style>
+      .a {
+        fill: #00a26a;
+      }
+
+      .b {
+        fill: none;
+        stroke: #00a26a;
+        stroke-linecap: round;
+        stroke-miterlimit: 10;
+      }
+    </style>
+  </defs>
+  <g>
+    <path class="a" d="M2.763,3.566H.484A.484.484,0,0,0,0,4.05V7.605a.484.484,0,0,0,.484.484H2.763L6.5,11.007a.451.451,0,0,0,.729-.355V1A.451.451,0,0,0,6.5.648Z"/>
+    <path class="b" d="M12.083,11.155A6.556,6.556,0,0,0,12.083.5"/>
+    <path class="b" d="M10.757,2.341a4.282,4.282,0,0,1,0,6.973"/>
+    <path class="b" d="M9.475,7.534a2.1,2.1,0,0,0,0-3.413"/>
+  </g>
+</svg>

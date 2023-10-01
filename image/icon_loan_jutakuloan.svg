@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 73.16 63.23">
+  <defs>
+    <style>
+      .a, .b, .c {
+        fill: none;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+      }
+
+      .a, .c {
+        stroke: #727272;
+      }
+
+      .a, .b {
+        stroke-width: 3.5px;
+      }
+
+      .b {
+        stroke: #00a26a;
+      }
+
+      .c {
+        stroke-width: 2.5px;
+      }
+    </style>
+  </defs>
+  <g>
+    <polyline class="a" points="57.944 32.24 57.944 61.48 16.93 61.48 16.93 30.773"/>
+    <path class="b" d="M57.491,18.692V5.179H48.415v5.748L38.53,2.47a3,3,0,0,0-3.9,0L2.1,30.3a1,1,0,0,0-.11,1.41l5.2,6.08a1,1,0,0,0,1.41.11L34.63,15.631a3,3,0,0,1,3.9,0L64.559,37.9a1,1,0,0,0,1.41-.11l5.2-6.08a1,1,0,0,0-.11-1.41Z"/>
+    <rect class="c" x="31.531" y="38.549" width="11.812" height="17.91"/>
+    <rect class="c" x="27.184" y="56.459" width="20.507" height="5.022"/>
+  </g>
+</svg>
